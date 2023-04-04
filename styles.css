@@ -1,0 +1,89 @@
+body{
+    background-color: antiquewhite;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 2em 0 2em;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-indent: 2em;
+    list-style: none;
+    padding-right: 4em;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #5f4339;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+a:hover{
+    color: red;
+}
+header{
+   background-image: url("https://via.placeholder.com/1920x1080.png");
+}
+header h2{
+    text-align: center;
+    font-size: large;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc(25.25% - 1.5em);
+    padding: 1em;
+    padding: 1.2em 3em 0 3em;
+}
+section .first-subsection{
+    text-align: center;
+}
+section .first-subsection div #pic{
+    display: block;
+    text-align: center;
+    float: left;
+    border: 4px double black;
+    margin-bottom: 1em;
+}
+section .second-subsection{
+    display: block;
+    text-align: center;
+    font-size: large;
+    padding-top: 0;
+}
+section .second-subsection #one{
+    color: red;
+    margin-bottom: 0.5em;
+}
+section .second-subsection #two{
+    color: green;
+    margin-bottom: 0.5em;
+}
+section .second-subsection #three{
+    color: purple;
+    margin-bottom: 0.5em;
+}
+section .third-subsection{
+    display: block;
+    text-align: center;
+    padding-top: 1.5em;
+}
+section .third-subsection #name{
+    margin-bottom: 0.7em;
+    font-weight: bold;
+}
+section .third-subsection #email{
+    margin-bottom: 0.7em;
+    font-weight: bold;
+}
+section .third-subsection #msg{
+    margin-bottom: 0.7em;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    background-color: skyblue;
+}
