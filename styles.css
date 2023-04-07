@@ -40,6 +40,7 @@ section{
 }
 section .first-subsection{
     text-align: center;
+    box-sizing: content-box;
 }
 section .first-subsection div #pic{
     display: block;
@@ -53,6 +54,7 @@ section .second-subsection{
     text-align: center;
     font-size: large;
     padding-top: 0;
+    box-sizing: content-box;
 }
 section .second-subsection #one{
     color: red;
@@ -70,6 +72,7 @@ section .third-subsection{
     display: block;
     text-align: center;
     padding-top: 1.5em;
+    box-sizing: content-box;
 }
 section .third-subsection #name{
     margin-bottom: 0.7em;
@@ -86,4 +89,37 @@ section .third-subsection #msg{
 footer{
     text-align: center;
     background-color: skyblue;
+}
+
+@media screen and (max-width: 100%) {
+    nav{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 2em 2em 0 2em;
+    }
+    section{
+        flex-direction: column;
+        display: block;
+        align-items: center;
+    }
+    section .first-subsection{
+        text-align: center;
+        width: 50%;
+        height: 50%;
+    }
+    section .second-subsection{
+        text-align: center;
+        font-size: large;
+        padding-top: 0;
+        box-sizing: content-box;
+    }
+    section .third-subsection{
+        display: block;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 1.5em;
+        box-sizing: content-box;
+    }
 }
