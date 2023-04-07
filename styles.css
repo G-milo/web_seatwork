@@ -34,7 +34,7 @@ header h2{
 section{
     display: flex;
     flex-wrap: wrap;
-    flex-basis: calc(25.25% - 1.5em);
+    flex-basis: calc(27.40% - 1em);
     padding: 1em;
     padding: 1.2em 3em 0 3em;
 }
@@ -44,10 +44,10 @@ section .first-subsection{
 }
 section .first-subsection div #pic{
     display: block;
-    text-align: center;
-    float: left;
     border: 4px double black;
     margin-bottom: 1em;
+    width: 200px;
+    height: 150px;
 }
 section .second-subsection{
     display: block;
